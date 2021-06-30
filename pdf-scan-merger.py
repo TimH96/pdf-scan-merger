@@ -4,7 +4,6 @@ __main__.py
 Script entrypoint
 """
 
-from sys import argv
 from PyPDF4 import PdfFileReader, PdfFileWriter
 from argparse import ArgumentParser, Namespace
 
@@ -12,7 +11,7 @@ from argparse import ArgumentParser, Namespace
 # argparse
 parser : ArgumentParser = ArgumentParser(
     description='Shuffle PDF pages, taking the first and last page each until reaching the middle of the document',
-    allow_abbrev=True    
+    allow_abbrev=True
 )
 parser.add_argument(
     'path',
