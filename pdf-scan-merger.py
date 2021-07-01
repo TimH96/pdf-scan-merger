@@ -1,5 +1,5 @@
 """
-__main__.py
+pdf-scan-merger.py
 
 Script entrypoint
 """
